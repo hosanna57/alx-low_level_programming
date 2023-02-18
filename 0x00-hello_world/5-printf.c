@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success) ggozzy
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
