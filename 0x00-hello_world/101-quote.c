@@ -1,13 +1,14 @@
 #include <unistd.h>
 
 /**
- * main - entry point of program
+ * main - Entry point of the program
  *
- * Return: always 1 (success)
+ * Return: Always 1
  */
 int main(void)
-  char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-  write(2, msg, sizeof(msg)-1);
+{
+  char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+  write(STDERR_FILENO, msg, 59);
   return (1);
 }
 
