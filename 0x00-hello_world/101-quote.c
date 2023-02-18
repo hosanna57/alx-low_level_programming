@@ -11,4 +11,3 @@ int main(void)
   write(STDERR_FILENO, msg, 59);
   return (1);
 }
-
