@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * int _islower - entry point
+ * _islower - entry point
  *
  * Return: 1 if c is lowercase or 0 if otherwise
  */
 
 int _islower(int c)
 {
-		if (c >= 97 && c <= 122)
+		if (c == 99)
 		{
 		return (1);
 		}
